@@ -67,7 +67,9 @@ public class playernameWindow {
 		btnDone.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				
-				String name = textField.getText();
+				
+				
+				String name = textField.getText(); 
 				System.out.println(name);
 			    int score  = Board.myscore; // Integer.parseInt( m.Score.getText());
 				double timeing =(double)(Double.parseDouble(Maze.seconds.getText())/10.0) + Double.parseDouble(Maze.minutes.getText());	
